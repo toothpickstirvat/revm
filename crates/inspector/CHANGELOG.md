@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [17.1.0](https://github.com/toothpickstirvat/revm/compare/revm-inspector-v17.0.0...revm-inspector-v17.1.0) - 2026-03-25
+
+### Added
+
+- add crate-level re-exports for all revm-* dependencies ([#3507](https://github.com/toothpickstirvat/revm/pull/3507))
+
+### Fixed
+
+- ensure both inspectors receive paired call/create events in tuple impl ([#3473](https://github.com/toothpickstirvat/revm/pull/3473))
+
 ## [17.0.0](https://github.com/bluealloy/revm/compare/revm-inspector-v16.0.0...revm-inspector-v17.0.0) - 2026-03-04
 
 ### Other

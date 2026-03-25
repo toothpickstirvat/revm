@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [33.0.0](https://github.com/toothpickstirvat/revm/compare/revm-precompile-v32.1.0...revm-precompile-v33.0.0) - 2026-03-25
+
+### Added
+
+- add crate-level re-exports for all revm-* dependencies ([#3507](https://github.com/toothpickstirvat/revm/pull/3507))
+
+### Other
+
+- use AnyError for PrecompileError::Fatal and EVMError::Custom ([#3502](https://github.com/toothpickstirvat/revm/pull/3502))
+- clarify PrecompileError::Fatal vs Other and EVMError::Custom ([#3496](https://github.com/toothpickstirvat/revm/pull/3496))
+
 ## [32.1.0](https://github.com/bluealloy/revm/compare/revm-precompile-v32.0.0...revm-precompile-v32.1.0) - 2026-03-02
 
 ### Added
